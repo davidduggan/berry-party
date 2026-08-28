@@ -1,0 +1,37 @@
+# Node / frontend
+node_modules/
+dist/
+build/
+.svelte-kit/
+.vite/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE / editor local settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp

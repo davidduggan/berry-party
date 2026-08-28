@@ -1,0 +1,14 @@
+{
+  "name": "berry-party",
+  "private": true,
+  "packageManager": "pnpm@10.5.0",
+  "engines": {
+    "node": "22.16.0",
+    "pnpm": "10.5.0"
+  },
+  "scripts": {
+    "dev": "pnpm --dir frontend dev",
+    "build": "pnpm --dir frontend build",
+    "check": "pnpm --dir frontend check"
+  }
+}
